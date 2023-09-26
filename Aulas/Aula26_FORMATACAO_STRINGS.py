@@ -14,13 +14,13 @@ Ex.: 0>-100,.1f
 Convversion flags - !r !s !a
 """
 variavel = "ABC"
-print(f'{variavel}')
-print(f'{variavel: >10}')
-print(f'{variavel: <10}') #sem ponto no final
-print(f'{variavel: ^10}.') #preenche com espaços com ponto no final
-print(f'{variavel:$>10}')
-print(f'{variavel:-<10}.')
-print(f'{variavel:´^10}.')
+print(f'{variavel}') #NORMAL
+print(f'{variavel: >10}') # DIREITA
+print(f'{variavel: <10}') # ESQUERDA 
+print(f'{variavel: ^10}.') # CONTRALIZADO COM PONTO NO FINAL
+print(f'{variavel:$>10}') # DIREITA COMPLETANDO COM $
+print(f'{variavel:-<10}.') # ESQUERDA COMPLETANDO COM $
+print(f'{variavel:´^10}.') # CENTRO COMPLETANDO COM $
 print(f'{1000.4873891879779:.1f}')
 print(f'{1000.4873891879779:,.1f}') #usa a virgula para separar a centena
 print(f'{1000.4873891879779:+,.1f}') #usa o + para ixibir o sinal de positivo no numero, caso seja positivo
